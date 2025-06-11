@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-export const Bag = () => {
+const Bag = () => {
   return (
-    <div>Bag</div>
-  )
-}
+    <div className="p-4">
+      <h2 className="text-xl font-bold mb-4">Our Bags</h2>
+      <p>Here are our top bag products...</p>
+      {/* Render product list here */}
+    </div>
+  );
+};
 
+export default Bag;
